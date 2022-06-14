@@ -1,0 +1,106 @@
+/* styling whole container */
+.container-fluid{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    overflow: hidden;
+}
+
+/* styling title message */
+h1{
+    color: green;
+    font-family: Satisfy, serif;
+    text-align:center;
+}
+h3{
+    color: lightgreen;
+    font-family: Roboto, serif;
+    text-align:center;
+    padding-bottom: 3vh;
+}
+
+/* styling the thumbnails on main screen */
+.thumbnails{
+    width: 22vw;
+    border: 5px solid green;
+    display: block;
+    margin: auto;
+    margin-bottom: 3vw;
+    border-radius: 5%;
+}
+.thumbnails:hover{
+    border: 8px solid lightgreen;
+}
+
+/* styling modal pop up box */
+.modal{
+    display: none; /*hidden to start*/
+    position: fixed;
+    z-index: 1;
+    width: 80%;
+    overflow: auto;
+    background-color: white;
+    margin-left: 10%;
+    /* overflow for left right arrows? */
+}
+.modal-content{
+    margin: auto;
+    padding: 1vh;
+    border: 5px solid green;
+    height: 100%;
+}
+.close{
+    color: black;
+    float: left;
+    font-size: 5vh;
+}
+.close:hover{
+    color: rgb(99, 96, 96);
+    text-decoration: none;
+    cursor: pointer;
+}
+#closebtn{
+    width: 5vw;
+    height: 5vw;
+    padding-top: 0;
+    margin-left: 1.8vw;
+    position: absolute;
+    display: block;
+    z-index: 100;
+}
+
+/* styling larger images */
+.photocarousel{
+    margin-top: 0;
+}
+.col-10{
+    overflow: scroll;
+}
+.imges{
+    height: 97vh;
+    width: 97vh;
+    margin: auto;
+    position: relative;
+    /* overflow-x: scroll; */
+}
+.previous{
+    position: absolute;
+    display: block;
+    top: 50%;
+    color: black;
+    font-size: 5vh;
+    z-index: 100;
+    cursor: pointer;
+}
+.next{
+    position: absolute;
+    display: block;
+    top: 50%;
+    color: black;
+    font-size: 5vh;
+    z-index: 100;
+    cursor: pointer;
+    float: right;
+}
+#next:hover, #previous:hover{
+    color:rgb(99, 96, 96);
+}
