@@ -7,12 +7,12 @@
 
 /* styling title message */
 h1{
-    color: green;
+    color: rgb(0, 132, 255);
     font-family: Satisfy, serif;
     text-align:center;
 }
 h3{
-    color: lightgreen;
+    color: rgb(82, 168, 250);
     font-family: Roboto, serif;
     text-align:center;
     padding-bottom: 3vh;
@@ -21,14 +21,14 @@ h3{
 /* styling the thumbnails on main screen */
 .thumbnails{
     width: 22vw;
-    border: 5px solid green;
+    border: 5px solid rgb(0, 132, 255);;
     display: block;
     margin: auto;
     margin-bottom: 3vw;
     border-radius: 5%;
 }
 .thumbnails:hover{
-    border: 8px solid lightgreen;
+    border: 8px solid rgb(82, 168, 250);;
 }
 
 /* styling modal pop up box */
@@ -45,7 +45,7 @@ h3{
 .modal-content{
     margin: auto;
     padding: 1vh;
-    border: 5px solid green;
+    border: 5px solid rgb(0, 132, 255);;
     height: 100%;
 }
 .close{
