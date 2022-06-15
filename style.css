@@ -17,6 +17,12 @@ h3{
     text-align:center;
     padding-bottom: 3vh;
 }
+h4{
+    color: rgb(244, 100, 213);
+    font-family: Roboto, serif;
+    text-align:center;
+    padding-bottom: 3vh;
+}
 
 /* styling the thumbnails on main screen */
 .thumbnails{
